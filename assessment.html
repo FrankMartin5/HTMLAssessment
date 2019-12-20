@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <h1>HTML Assessment</h1>
+    <h2>TEXT</h2>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p style="margin-left: 40px"><em>Lorem</em> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2>TABLE</h2>
+    <table>
+      <tr>
+        <th>Scores by quarter</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
+      </tr>
+      <tr>
+        <th>Team Name</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        <th>Final</th>
+      </tr>
+      <tr>
+        <td>Dallas</td>
+        <td>14</td>
+        <td>7</td>
+        <td>3</td>
+        <td>7</td>
+        <td>31</td>
+      </tr>
+      <tr>
+        <td>Philadelphia</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th>17</th>
+        <th>7</th>
+        <th>10</th>
+        <th>14</th>
+        <th>48</th>
+      </tr>
+    </table>
+    <h2>LIST</h2>
+    <ul>
+      <li><img src="cowboyslogo.jpg" width="50" height="50"><a href="https://www.dallascowboys.com/">Dallas Cowboys</a></li>
+      <ul>
+        <li>Head Coach: Jason Garrett</li>
+        <li>Players</li>
+        <ol>
+          <li>QB: Dak Prescott</li>
+          <li>RB: Ezekiel Elliot</li>
+        </ol>
+      </ul>
+    </ul>
+    <ul>
+      <li><img src="eagleslogo.jpg" width="50" height="50"><a href="https://www.philadelphiaeagles.com/">Philadelphia Eagles</a></li>
+      <ul>
+        <li>Head Coach: Doug Pederson</li>
+        <li>Players</li>
+        <ol>
+          <li>QB: Carson Wentz</li>
+          <li>RB: Jordan Howard</li>
+        </ol>
+      </ul>
+    </ul>
+    <h2>FORM</h2>
+    <form class="" action="assessment.html" method="post">
+      First: <input type="text" name="firstName" value="">
+      Last: <input type="text" name="lastName" value=""> <br>
+      Favorite Sport:
+      <select name="Sport">
+        <option value="football">Football</option>
+        <option value="soccer">Soccer</option>
+        <option value="basketball">Basketball</option>
+        <option value="hockey">Hockey</option>
+      </select> <br>
+      I have: <input type="checkbox" name="position" value="Attended"> Attended
+      <input type="checkbox" name="position" value="Played"> Played
+      <input type="checkbox" name="position" value="Coached"> Coached
+      <input type="checkbox" name="position" value="Bet"> Bet on this sport. <br>
+      For this sport I prefer: <input type="radio" name="level" value="Amateur"> Amateur
+      <input type="radio" name="level" value="College"> College
+      <input type="radio" name="level" value="Professional"> Professional <br>
+      <input type="submit" name="Submit Query" value="Submit Query">
+
+    </form>
+  </body>
+</html>
