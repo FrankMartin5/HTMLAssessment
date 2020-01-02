@@ -18,3 +18,7 @@ a:hover {
   color: yellow;
   background-color: darkblue;
 }
+
+#checkbox-grid {
+  list-style: none;
+}
